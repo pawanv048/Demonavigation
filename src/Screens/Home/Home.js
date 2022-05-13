@@ -12,7 +12,7 @@ const Home = ({ navigation }) => {
  //console.log("show properties of navigation ===> ", navigation)
 
   const navigationBetweenScreens = () => {
-    navigation.navigate(), { learning: 'Learning about navigation strings' }
+    navigation.navigate(navigationStrings.PROFILE,{learning: "passing data through navigation"})
   }
 
   return (
